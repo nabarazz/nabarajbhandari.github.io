@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nabaraj Bhandari</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Advanced Website</title>
 </head>
 <body>
     <header>
-        <h1>Nabaraj Bhandari</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <h2>Education</h2>
-        <p>Bachelor of Computer Application (BCA)</p>
-        <p>La Grande International College</p>
-
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Flutter</li>
-            <li>Ubuntu</li>
-        </ul>
-
-        <h2>About Me</h2>
-        <p>
-            I completed my Bachelor of Computer Application (BCA) from La Grande International College. I'm passionate about technology and have expertise in Python, Flutter, and Ubuntu.
-        </p>
-
-        <h2>Connect with Me</h2>
-        <div class="contact">
-            <span class="icon">&#128241;</span>9844914589
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div id="bio-content"></div>
         </div>
-        <div class="contact">
-            <span class="icon">&#9993;</span><a href="mailto:nabarazz01@gmail.com">nabarazz01@gmail.com</a>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="media/project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Project 1 description goes here.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="media/project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Project 2 description goes here.</p>
+            </div>
         </div>
-        <div class="contact">
-            <span class="icon">&#128101;</span><a href="https://github.com/nabarazz" target="_blank">GitHub</a>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to contact me for any inquiries or project opportunities.</p>
+            <a href="mailto:your@email.com" class="contact-button">Email Me</a>
         </div>
-        <div class="contact">
-            <span class="icon">&#128089;</span><a href="https://www.linkedin.com/in/nabaraj-bhandari-39ab551b6/" target="_blank">LinkedIn</a>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
